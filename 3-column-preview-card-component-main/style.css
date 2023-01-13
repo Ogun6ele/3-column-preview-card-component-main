@@ -101,6 +101,21 @@ body{
     color: var(--Very-dark-cyan);
 }
 
+.attribution{
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: var(--Dark-cyan)
+}
+
+a:hover{
+    color: var(--Very-dark-cyan)
+}
+
+
 @media only screen and (max-width: 768px) {
     .wrapper{
         grid-template-columns: 1fr;
