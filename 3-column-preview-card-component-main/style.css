@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
 :root{
     --Bright-orange: hsl(31, 77%, 52%);
@@ -38,6 +38,7 @@ body{
 
 .content{
     padding: 50px;
+
 }
 
 .content h1{
@@ -47,8 +48,8 @@ body{
     font-weight: 700;
     text-transform: uppercase;
     padding-top: 25px;
-}
 
+}
 .content p{
     margin-top: 20px;
     color: var(--paragraphs);
@@ -56,6 +57,7 @@ body{
     font-weight: 400;
     line-height: 1.6;
     font-size: 14.2px;
+
 }
 
 .content button{
@@ -67,11 +69,12 @@ body{
     padding: 15px 25px;
     font-family: 'Lexend Deca', sans-serif;
     cursor: pointer;
+    
 }
 
 .content button:hover{
     background: transparent;
-    color: var(--background-headings-buttons);
+    color: var(--background-headings-buttons)
 }
 
 .sedan{
@@ -96,6 +99,11 @@ body{
 
 .luxury button{
     color: var(--Very-dark-cyan);
+}
+
+.attribution{
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 a{
